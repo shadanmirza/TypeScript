@@ -24,3 +24,5 @@ const fetchData = async () => {
         }
     }
 }
+
+export const data = fetchData
