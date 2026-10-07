@@ -26,7 +26,7 @@ export function TeaCard({ name, kind, description, price, image, tag }: TeaCardP
         <h2 className="mb-2 mt-2 font-serif text-2xl font-normal text-[#293126]">{name}</h2>
         <div className="border-t border-[#e9e8df] pt-3">
           <p className="text-[8px] tracking-[1.25px] text-[#8a8d7d]">DESCRIPTION</p>
-          <p className="mt-1 min-h-[60px] text-xs leading-relaxed text-[#77796f]">{description}</p>
+          <p className="mt-1 min-h-15 text-xs leading-relaxed text-[#77796f]">{description}</p>
         </div>
         <a href="#collection" className="mt-4 inline-flex gap-3 border-b border-[#c5c9ba] pb-1 text-[11px] text-[#505943] no-underline">
           Discover this tea <span aria-hidden="true">&#8599;</span>
