@@ -9,8 +9,8 @@ console.log(airlineSeat);
 airlineSeat = 'window'
 
 
-const orders = ["12", "20", "30"]
 
+const orders = ["12", "20", "30"]
 let currentOrder: string | undefined;
 
 for (let order of orders){
@@ -22,3 +22,4 @@ for (let order of orders){
 }
 
 console.log(currentOrder);
+
